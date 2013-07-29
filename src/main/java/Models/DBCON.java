@@ -27,9 +27,9 @@ public class DBCON {
         return con;
     }
     
-    String host2 = "jdbc:mysql://mysql-trs-srilanka.jelastic.servint.net/trs_srilanka";
+    String host2 = "jdbc:mysql://mysql-env-7762880.jelastic.servint.net/trs_srilanka";
     String username2 = "root";
-    String password2 = "ILZ18UCI8k";
+    String password2 = "9D0jVati1Z";
     String driver = "com.mysql.jdbc.Driver";
     public Connection createConnection(){
         try{
